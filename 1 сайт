@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Поворницин Виктор</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <a class="link-header" href="leonov.html">Поворницин Виктор</a>
+    </header>
+    <main>
+      <nav>
+        <a class="link-nav" href="mysites.html"><b>мои лучшие работы</b></a>
+        <a class="link-nav" href="info.html"><b>полезная информация</b></a>
+        </nav>
+      <h1>Web-sites<br/> developer</h1>
+      <ul>                                                   
+      <li>разметка и стилизация</li>
+      <li>вёрстка сетчатых макетов</li>
+      <li>двумерные анимации и интерактивные элементы</li>
+      <li>мультимедиа на сайте</li>
+      </ul>
+      <img src="https://backoffice.algoritmika.org/uploads/2021/04/carousel-1684591_0_1618254197.svg" width="830px" height="550px"/>
+    </main>
+    <footer>
+      <a class="social" href=""><img src="https://backoffice.algoritmika.org/uploads/2021/04/Group%201_0_1618254571.png" width="100px" height="100px"/></a>
+    </footer>
+  </body>
+</html>
+ <link rel="stylesheet" href="mysite.css">
+ body {
+    font-family: sans-serif;
+}
+
+
+header{
+background-image: linear-gradient(white,turquoise);
+    width: auto;
+    height: 50px
+}
+header a {
+    color: black;
+    background-color:greenyellow;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+        background-color: greenyellow;
+}
+
+header a:hover{
+   box-shadow: 3px 5px 10px gold; 
+}
+
+main{
+    background-color: turquoise;
+}
+
+footer{
+    background-color: greenyellow;
+}
+
+nav a{
+       color: black;
+    background-color:greenyellow;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 0px;
+    text-align: center;
+} 
+nav a:hover{
+   box-shadow: 3px 5px 10px gold; 
+}
+
